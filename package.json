@@ -1,0 +1,18 @@
+{
+  "name": "tdd-intro",
+  "version": "1.0.0",
+  "description": "app for tdd-intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage"
+  },
+  "author": "Ebenezer Don",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "jest": "^26.5.2"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^7.24.5"
+  }
+}
