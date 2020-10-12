@@ -1,0 +1,22 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tdd intro - Age calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="text-center mt-5">
+      <h1>I can tell you how old you are</h1>
+      <p class="lead">...if you tell me when you were born</p>
+      <form class="age-form" onsubmit="updateDomWithAge(event)">
+        <input type="number" class="year-of-birth" placeholder="Input year of birth here">
+        <div class="mt-2">
+          <button type="submit" class="btn btn-primary">Tell me</button>
+        </div>
+      </form>
+      <h3 class="result"></h3>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
