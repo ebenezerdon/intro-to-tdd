@@ -1,8 +1,7 @@
 const { calculateAge, updateDomWithAge } = require('./index')
-const { screen, fireEvent } = require('@testing-library/dom')
 
 test(`calculates a user's age`, () => {
-  expect(calculateAge(2015)).toBe(5)
+  expect(calculateAge(2015, 2020)).toBe(5)
 })
 
 test(`displays the user's age on form submit`, () => {
